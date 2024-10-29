@@ -1,4 +1,4 @@
-name: "🚀 Feature Request"
+name: "Feature Request"
 description: "Suggest a new feature or improvement for Rugby Always Wins"
 title: "[Feature]: <title>"
 labels: ["type: feature", "status: in review"]
@@ -9,6 +9,7 @@ body:
         ## Feature Request
 
         Please fill out the details below to help us understand your feature request.
+
   - type: input
     id: problem_description
     attributes:
@@ -17,6 +18,7 @@ body:
       placeholder: "e.g., Users find it difficult to track player stats in real-time."
     validations:
       required: true
+
   - type: textarea
     id: proposed_solution
     attributes:
@@ -25,6 +27,7 @@ body:
       placeholder: "e.g., Implement a live player stats tracker with detailed analytics."
     validations:
       required: true
+
   - type: textarea
     id: alternatives_considered
     attributes:
@@ -33,6 +36,7 @@ body:
       placeholder: "e.g., A simpler solution could be a basic stats summary instead of real-time tracking, but it may not meet users' needs as well."
     validations:
       required: false
+
   - type: textarea
     id: additional_context
     attributes:
@@ -41,6 +45,7 @@ body:
       placeholder: "e.g., Screenshots, sketches, relevant links, etc."
     validations:
       required: false
+
   - type: dropdown
     id: priority_level
     attributes:
@@ -52,6 +57,7 @@ body:
         - High
     validations:
       required: false
+
   - type: checkboxes
     id: validations
     attributes:
