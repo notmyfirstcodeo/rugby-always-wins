@@ -1,3 +1,5 @@
+@use '../../styles/abstracts' as *;
+
 .header {
   display: flex;
   align-items: center;
@@ -9,5 +11,66 @@
     display: flex;
     align-items: center;
     gap: 2rem;
+
+    .header__search {
+      position: relative;
+      display: flex;
+      height: min-content;
+      width: 200px;
+
+      .header__searchIcon {
+        position: absolute;
+        left: 0.25rem;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-right: 0.5rem;
+        height: 1.25rem;
+        width: 1.25rem;
+        cursor: pointer;
+      }
+
+      .header__searchInput {
+        padding: 0.5rem;
+        padding-left: 2rem;
+        border-radius: 0.25rem;
+        border-style: none;
+        width: 100%;
+        background-color: clr(neutral, 100);
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+
+    .header__settings {
+      // height: min-content;
+      // width: min-content;
+      border-radius: 0.25rem;
+      padding: 0.25rem;
+
+      &:hover {
+        background-color: clr(neutral, 100);
+      }
+
+      .header__settingsIcon {
+        height: 0.75rem;
+        width: 0.75rem;
+        cursor: pointer;
+      }
+    }
+
+    .header__iconsDivider {
+      margin: 0 0.25rem 0.5rem;
+      min-height: 2em;
+      width: 0.125rem;
+      display: none;
+      background-color: clr(neutral, 300);
+
+      @include mq(medium) {
+        display: inline-block;
+      }
+    }
   }
 }

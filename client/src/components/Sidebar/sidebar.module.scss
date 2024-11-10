@@ -1,0 +1,28 @@
+@use '../../styles/abstracts' as *;
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow:
+    0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  transition-duration: 300ms;
+  z-index: 40;
+  overflow-y: auto;
+  background-color: clr(neutral, 50);
+
+  &__logo {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+
+    .sidebar__logoWrapper {
+    }
+  }
+}
