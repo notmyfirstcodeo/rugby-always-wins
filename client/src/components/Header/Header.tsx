@@ -11,12 +11,12 @@ const Header = () => {
       </Link>
 
       {/* Icons */}
-      <div className={styles.header__icons}>
+      {/* <div className={styles.header__icons}>
         <Link href='/settings' className={styles.header__settings}>
           <Settings className={styles.header__settingsIcon} />
         </Link>
         <div className={styles.header__iconsDivider}></div>
-      </div>
+      </div> */}
     </header>
   );
 };

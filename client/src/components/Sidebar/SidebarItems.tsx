@@ -5,8 +5,8 @@ import { Bell, Briefcase, Home, Settings, User } from 'lucide-react';
 export const SidebarItems = () => {
   const pathname = usePathname();
 
-  function isNavItemActive(pathname: string, nav: string) {
-    return pathname.includes(nav);
+  function isSidebarItemActive(pathname: string, sidebar: string) {
+    return pathname.includes(sidebar);
   }
 
   return [
@@ -21,28 +21,28 @@ export const SidebarItems = () => {
       name: 'Profile',
       href: '/profile',
       icon: <User size={20} />,
-      active: isNavItemActive(pathname, '/profile'),
+      active: isSidebarItemActive(pathname, '/profile'),
       position: 'top',
     },
     {
       name: 'Notifications',
       href: '/notifications',
       icon: <Bell size={20} />,
-      active: isNavItemActive(pathname, '/notifications'),
+      active: isSidebarItemActive(pathname, '/notifications'),
       position: 'top',
     },
     {
       name: 'Projects',
       href: '/projects',
       icon: <Briefcase size={20} />,
-      active: isNavItemActive(pathname, '/projects'),
+      active: isSidebarItemActive(pathname, '/projects'),
       position: 'top',
     },
     {
       name: 'Settings',
       href: '/settings',
       icon: <Settings size={20} />,
-      active: isNavItemActive(pathname, '/settings'),
+      active: isSidebarItemActive(pathname, '/settings'),
       position: 'bottom',
     },
   ];
