@@ -1,8 +1,13 @@
-@use "../abstracts" as *;
+@use '../abstracts' as *;
 
 html,
 body,
 #root,
 .app {
-  background-color: clr(neutral, 500);
+  background-color: clr(neutral, 50);
+}
+
+main {
+  display: flex;
+  height: calc(100% - 4rem);
 }

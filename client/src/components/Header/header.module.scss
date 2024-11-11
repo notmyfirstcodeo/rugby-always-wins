@@ -1,8 +1,61 @@
+@use '../../styles/abstracts' as *;
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: clr(neutral, 100);
-  padding: 0.75rem 1rem;
-  
+  flex-shrink: 0;
+  background-color: clr(neutral, 50);
+  padding: 0.75rem;
+  height: 4rem;
+  // Separate border styles for colour function
+  border-bottom-color: clr(neutral, 100);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+
+    .header__logoText {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 600;
+      color: clr(neutral, 900);
+    }
+  }
+
+  &__icons {
+    display: flex;
+    align-items: center;
+
+    .header__settings {
+      border-radius: 0.25rem;
+      padding: 0.25rem;
+
+      &:hover {
+        background-color: clr(neutral, 100);
+      }
+
+      .header__settingsIcon {
+        height: 0.75rem;
+        width: 0.75rem;
+        cursor: pointer;
+      }
+    }
+
+    .header__iconsDivider {
+      margin: 0 0.25rem 0.5rem;
+      min-height: 2em;
+      width: 0.125rem;
+      display: none;
+      background-color: clr(neutral, 300);
+
+      @include mq(medium) {
+        display: inline-block;
+      }
+    }
+  }
 }
