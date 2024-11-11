@@ -5,21 +5,14 @@ import { Search, Settings } from 'lucide-react';
 const Header = () => {
   return (
     <header className={styles.header}>
-      {/* Search Bar */}
-      <div className={styles.header__toolbar}>
-        <div className={styles.header__search}>
-          <Search className={styles.header__searchIcon} />
-          <input
-            className={styles.header__searchInput}
-            placeholder='Search...'
-            type='search'
-          />
-        </div>
-      </div>
+      {/* Logo */}
+      <Link href='#' className={styles.header__logo} prefetch={false}>
+        <h1 className={styles.header__logoText}>Rugby Always Wins</h1>
+      </Link>
 
       {/* Icons */}
       <div className={styles.header__icons}>
-        <Link href="/settings" className={styles.header__settings}>
+        <Link href='/settings' className={styles.header__settings}>
           <Settings className={styles.header__settingsIcon} />
         </Link>
         <div className={styles.header__iconsDivider}></div>
