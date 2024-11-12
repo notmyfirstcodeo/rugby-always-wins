@@ -1,0 +1,90 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  userId Int @id @default(autoincrement())
+  cognitoId String @unique
+  username String @unique
+  email String @unique
+  firstName String
+  lastName String
+  profilePictureUrl String?
+  createdAt DateTime @default(now())
+  lastLogin DateTime?
+
+  leagues League[]
+  leagueUsers UserLeague[]
+}
+
+model League {
+  leagueId Int @id @default(autoincrement())
+  name String
+  competitionId Int
+  description String
+  isPrivate Boolean @default(false)
+  createdBy Int
+  createdAt DateTime @default(now())
+
+  competition Competition @relation(fields: [competitionId], references: [competitionId])
+  creator User @relation(fields: [createdBy], references: [userId])
+  users UserLeague[]
+}
+
+model UserLeague {
+  userLeagueId Int @id @default(autoincrement())
+  userId Int
+  leagueId Int
+  joinedAt DateTime @default(now())
+  
+  user User @relation(fields: [userId], references: [userId])
+  league League @relation(fields: [leagueId], references: [leagueId])
+
+  @@unique([userId, leagueId])
+}
+
+model Competition {
+  competitionId Int @id @default(autoincrement())
+  name String
+  description String?
+  createdAt DateTime @default(now())
+
+  leagues League[]
+  matches Match[]
+}
+
+model Match {
+  matchId Int @id @default(autoincrement())
+  competitionId Int
+  homeTeamId Int
+  awayTeamId Int
+  matchDate DateTime
+  result String?
+
+  homeTeam Team @relation("homeTeamRelation", fields: [homeTeamId], references: [teamId])
+  awayTeam Team @relation("awayTeamRelation", fields: [awayTeamId], references: [teamId])
+  competition Competition @relation(fields: [competitionId], references: [competitionId])
+}
+
+model Team {
+  teamId Int @id @default(autoincrement())
+  name String @unique
+  
+  players Player[]
+  homeMatches Match[] @relation("homeTeamRelation")
+  awayMatches Match[] @relation("awayTeamRelation")
+}
+
+model Player {
+  id Int @id @default(autoincrement())
+  name String
+  teamId Int
+  position String
+
+  team Team @relation(fields: [teamId], references: [teamId])
+}
