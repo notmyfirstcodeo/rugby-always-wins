@@ -1,0 +1,34 @@
+[
+  {
+    "userLeagueId": 1,
+    "competitionId": 1,
+    "createdAt": "2024-11-01T10:00:00.000Z",
+    "predictedWinnerId": 5,
+    "topTryScorerId": 4,
+    "topPointsScorerId": 5
+  },
+  {
+    "userLeagueId": 2,
+    "competitionId": 1,
+    "createdAt": "2024-11-01T10:30:00.000Z",
+    "predictedWinnerId": 6,
+    "topTryScorerId": 3,
+    "topPointsScorerId": 2
+  },
+  {
+    "userLeagueId": 3,
+    "competitionId": 2,
+    "createdAt": "2024-11-02T11:00:00.000Z",
+    "predictedWinnerId": 7,
+    "topTryScorerId": 5,
+    "topPointsScorerId": 4
+  },
+  {
+    "userLeagueId": 4,
+    "competitionId": 1,
+    "createdAt": "2024-11-02T12:00:00.000Z",
+    "predictedWinnerId": null,
+    "topTryScorerId": 2,
+    "topPointsScorerId": null
+  }
+]

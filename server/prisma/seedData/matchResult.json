@@ -1,0 +1,74 @@
+[
+  {
+    "matchId": 1,
+    "homeTeamScore": 25,
+    "awayTeamScore": 18,
+    "winnerTeamId": 1,
+    "pointDifference": 7,
+    "createdAt": "2024-11-10T14:30:00Z",
+    "lastUpdated": "2024-11-10T14:30:00Z"
+  },
+  {
+    "matchId": 2,
+    "homeTeamScore": 30,
+    "awayTeamScore": 22,
+    "winnerTeamId": 1,
+    "pointDifference": 8,
+    "createdAt": "2024-11-11T16:00:00Z",
+    "lastUpdated": "2024-11-11T16:00:00Z"
+  },
+  {
+    "matchId": 3,
+    "homeTeamScore": 15,
+    "awayTeamScore": 15,
+    "winnerTeamId": null,
+    "pointDifference": 0,
+    "createdAt": "2024-11-12T18:45:00Z",
+    "lastUpdated": "2024-11-12T18:45:00Z"
+  },
+  {
+    "matchId": 4,
+    "homeTeamScore": 12,
+    "awayTeamScore": 26,
+    "winnerTeamId": 2,
+    "pointDifference": -14,
+    "createdAt": "2024-11-13T20:00:00Z",
+    "lastUpdated": "2024-11-13T20:00:00Z"
+  },
+  {
+    "matchId": 5,
+    "homeTeamScore": 22,
+    "awayTeamScore": 19,
+    "winnerTeamId": 1,
+    "pointDifference": 3,
+    "createdAt": "2024-11-14T15:00:00Z",
+    "lastUpdated": "2024-11-14T15:00:00Z"
+  },
+  {
+    "matchId": 6,
+    "homeTeamScore": 10,
+    "awayTeamScore": 10,
+    "winnerTeamId": null,
+    "pointDifference": 0,
+    "createdAt": "2024-11-15T17:30:00Z",
+    "lastUpdated": "2024-11-15T17:30:00Z"
+  },
+  {
+    "matchId": 7,
+    "homeTeamScore": 35,
+    "awayTeamScore": 10,
+    "winnerTeamId": 1,
+    "pointDifference": 25,
+    "createdAt": "2024-11-16T13:00:00Z",
+    "lastUpdated": "2024-11-16T13:00:00Z"
+  },
+  {
+    "matchId": 8,
+    "homeTeamScore": 18,
+    "awayTeamScore": 28,
+    "winnerTeamId": 2,
+    "pointDifference": -10,
+    "createdAt": "2024-11-17T16:00:00Z",
+    "lastUpdated": "2024-11-17T16:00:00Z"
+  }
+]

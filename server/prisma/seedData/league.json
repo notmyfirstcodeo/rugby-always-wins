@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Ruck n' Roll All-Stars",
+    "description": "A competitive league for rugby enthusiasts.",
+    "competitionId": 1,
+    "isPrivate": false,
+    "createdById": 1,
+    "createdAt": "2024-02-01T12:00:00.000Z"
+  },
+  {
+    "name": "Scrum & Coke",
+    "description": "A fun league where rugby and friendship meet.",
+    "competitionId": 2,
+    "isPrivate": false,
+    "createdById": 2,
+    "createdAt": "2024-02-02T12:30:00.000Z"
+  },
+  {
+    "name": "Try Babies",
+    "description": "The ultimate league for baby rugby players.",
+    "competitionId": 1,
+    "isPrivate": false,
+    "createdById": 3,
+    "createdAt": "2024-02-03T14:00:00.000Z"
+  },
+  {
+    "name": "No Woman, No Try",
+    "description": "A league focusing on female rugby players.",
+    "competitionId": 2,
+    "isPrivate": false,
+    "createdById": 4,
+    "createdAt": "2024-02-04T15:15:00.000Z"
+  },
+  {
+    "name": "Drop Goals & Dreams",
+    "description": "A high-scoring league where drop goals are king.",
+    "competitionId": 2,
+    "isPrivate": false,
+    "createdById": 1,
+    "createdAt": "2024-02-05T16:30:00.000Z"
+  },
+  {
+    "name": "Pass Masters",
+    "description": "A league for masters of the rugby pass.",
+    "competitionId": 1,
+    "isPrivate": false,
+    "createdById": 1,
+    "createdAt": "2024-02-06T17:45:00.000Z"
+  },
+  {
+    "name": "Scrumtastic",
+    "description": "For the best scrummagers in rugby.",
+    "competitionId": 1,
+    "isPrivate": false,
+    "createdById": 7,
+    "createdAt": "2024-02-07T19:00:00.000Z"
+  },
+  {
+    "name": "The Haka Monologues",
+    "description": "A league where players bring their best Haka.",
+    "competitionId": 2,
+    "isPrivate": false,
+    "createdById": 8,
+    "createdAt": "2024-02-08T20:15:00.000Z"
+  },
+  {
+    "name": "Rugby Maul Stars",
+    "description": "A tough league for maul specialists.",
+    "competitionId": 1,
+    "isPrivate": false,
+    "createdById": 9,
+    "createdAt": "2024-02-09T21:30:00.000Z"
+  }
+]

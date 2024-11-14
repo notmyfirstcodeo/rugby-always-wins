@@ -1,0 +1,22 @@
+[
+  { "name": "Eden Park", "cityId": 1, "teamId": 1 },
+  { "name": "Loftus Versfeld", "cityId": 2, "teamId": 2 },
+  { "name": "Twickenham", "cityId": 3, "teamId": 3 },
+  { "name": "Stade de France", "cityId": 4, "teamId": 4 },
+  { "name": "Aviva Stadium", "cityId": 5, "teamId": 5 },
+  { "name": "AAMI Park", "cityId": 6, "teamId": 6 },
+  { "name": "Principality Stadium", "cityId": 7, "teamId": 7 },
+  { "name": "Murrayfield Stadium", "cityId": 8, "teamId": 8 },
+  { "name": "Estadio Monumental", "cityId": 9, "teamId": 9 },
+  { "name": "Tokyo National Stadium", "cityId": 10, "teamId": 10 },
+  { "name": "Welford Road", "cityId": 3, "teamId": 11 },
+  { "name": "Allianz Park", "cityId": 3, "teamId": 12 },
+  { "name": "The Stoop", "cityId": 3, "teamId": 13 },
+  { "name": "Franklin's Gardens", "cityId": 3, "teamId": 14 },
+  { "name": "The Rec", "cityId": 3, "teamId": 15 },
+  { "name": "Madejski Stadium", "cityId": 3, "teamId": 16 },
+  { "name": "Sandy Park", "cityId": 3, "teamId": 17 },
+  { "name": "Kingsholm Stadium", "cityId": 3, "teamId": 18 },
+  { "name": "AJ Bell Stadium", "cityId": 3, "teamId": 19 },
+  { "name": "Ricoh Arena", "cityId": 3, "teamId": 20 }
+]
