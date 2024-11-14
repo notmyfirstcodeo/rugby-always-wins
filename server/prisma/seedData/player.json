@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Maro Itoje",
+    "teamId": 1,
+    "positionId": 4
+  },
+  {
+    "name": "Owen Farrell",
+    "teamId": 1,
+    "positionId": 10
+  },
+  {
+    "name": "Beauden Barrett",
+    "teamId": 2,
+    "positionId": 10
+  },
+  {
+    "name": "Ardie Savea",
+    "teamId": 2,
+    "positionId": 7
+  },
+  {
+    "name": "Siya Kolisi",
+    "teamId": 3,
+    "positionId": 6
+  },
+  {
+    "name": "Handré Pollard",
+    "teamId": 3,
+    "positionId": 10
+  },
+  {
+    "name": "Antoine Dupont",
+    "teamId": 4,
+    "positionId": 9
+  },
+  {
+    "name": "Damian Penaud",
+    "teamId": 4,
+    "positionId": 14
+  },
+  {
+    "name": "Stuart Hogg",
+    "teamId": 5,
+    "positionId": 14
+  },
+  {
+    "name": "Finn Russell",
+    "teamId": 5,
+    "positionId": 10
+  },
+  {
+    "name": "Johnny Sexton",
+    "teamId": 6,
+    "positionId": 10
+  },
+  {
+    "name": "Tadhg Furlong",
+    "teamId": 6,
+    "positionId": 3
+  },
+  {
+    "name": "Michael Hooper",
+    "teamId": 7,
+    "positionId": 7
+  },
+  {
+    "name": "Marika Koroibete",
+    "teamId": 7,
+    "positionId": 11
+  },
+  {
+    "name": "Alun Wyn Jones",
+    "teamId": 8,
+    "positionId": 5
+  },
+  {
+    "name": "George North",
+    "teamId": 8,
+    "positionId": 13
+  },
+  {
+    "name": "Pablo Matera",
+    "teamId": 9,
+    "positionId": 6
+  },
+  {
+    "name": "Emiliano Boffelli",
+    "teamId": 9,
+    "positionId": 11
+  },
+  {
+    "name": "Faf de Klerk",
+    "teamId": 3,
+    "positionId": 9
+  },
+  {
+    "name": "Romain Ntamack",
+    "teamId": 4,
+    "positionId": 12
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "userLeagueId": 1,
+    "matchId": 1,
+    "createdAt": "2024-11-01T12:00:00.000Z",
+    "predictedHomeScore": 25,
+    "predictedAwayScore": 18,
+    "predictedPointsDifference": 7,
+    "firstTryScorerId": 1
+  },
+  {
+    "userLeagueId": 2,
+    "matchId": 2,
+    "createdAt": "2024-11-01T12:30:00.000Z",
+    "predictedHomeScore": 30,
+    "predictedAwayScore": 24,
+    "predictedPointsDifference": 6,
+    "firstTryScorerId": 1
+  },
+  {
+    "userLeagueId": 1,
+    "matchId": 3,
+    "createdAt": "2024-11-02T14:00:00.000Z",
+    "predictedHomeScore": 21,
+    "predictedAwayScore": 20,
+    "predictedPointsDifference": 1,
+    "firstTryScorerId": null
+  },
+  {
+    "userLeagueId": 3,
+    "matchId": 4,
+    "createdAt": "2024-11-02T15:00:00.000Z",
+    "predictedHomeScore": 18,
+    "predictedAwayScore": 18,
+    "predictedPointsDifference": 0,
+    "firstTryScorerId": 2
+  },
+  {
+    "userLeagueId": 4,
+    "matchId": 5,
+    "createdAt": "2024-11-03T16:00:00.000Z",
+    "predictedHomeScore": 15,
+    "predictedAwayScore": 22,
+    "predictedPointsDifference": -7,
+    "firstTryScorerId": 5
+  },
+  {
+    "userLeagueId": 5,
+    "matchId": 6,
+    "createdAt": "2024-11-04T17:30:00.000Z",
+    "predictedHomeScore": 27,
+    "predictedAwayScore": 23,
+    "predictedPointsDifference": 4,
+    "firstTryScorerId": null
+  }
+]

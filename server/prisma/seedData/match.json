@@ -1,0 +1,58 @@
+[
+  {
+    "competitionId": 1,
+    "homeTeamId": 1,
+    "awayTeamId": 2,
+    "stadiumId": 1,
+    "matchDate": "2024-11-10T14:30:00Z"
+  },
+  {
+    "competitionId": 1,
+    "homeTeamId": 3,
+    "awayTeamId": 4,
+    "stadiumId": 2,
+    "matchDate": "2024-11-11T16:00:00Z"
+  },
+  {
+    "competitionId": 2,
+    "homeTeamId": 5,
+    "awayTeamId": 6,
+    "stadiumId": 3,
+    "matchDate": "2024-11-12T18:45:00Z"
+  },
+  {
+    "competitionId": 2,
+    "homeTeamId": 7,
+    "awayTeamId": 8,
+    "stadiumId": 4,
+    "matchDate": "2024-11-13T20:00:00Z"
+  },
+  {
+    "competitionId": 2,
+    "homeTeamId": 9,
+    "awayTeamId": 10,
+    "stadiumId": 5,
+    "matchDate": "2024-11-14T15:00:00Z"
+  },
+  {
+    "competitionId": 2,
+    "homeTeamId": 11,
+    "awayTeamId": 12,
+    "stadiumId": 6,
+    "matchDate": "2024-11-15T17:30:00Z"
+  },
+  {
+    "competitionId": 1,
+    "homeTeamId": 13,
+    "awayTeamId": 14,
+    "stadiumId": 7,
+    "matchDate": "2024-11-16T13:00:00Z"
+  },
+  {
+    "competitionId": 2,
+    "homeTeamId": 15,
+    "awayTeamId": 16,
+    "stadiumId": 8,
+    "matchDate": "2024-11-17T16:00:00Z"
+  }
+]

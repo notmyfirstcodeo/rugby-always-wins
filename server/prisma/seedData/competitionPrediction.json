@@ -1,0 +1,50 @@
+[
+  {
+    "userLeagueId": 1,
+    "competitionId": 101,
+    "createdAt": "2024-11-01T10:00:00.000Z",
+    "predictedWinnerId": 5,
+    "topTryScorerId": 4,
+    "topPointsScorerId": 5
+  },
+  {
+    "userLeagueId": 2,
+    "competitionId": 101,
+    "createdAt": "2024-11-01T10:30:00.000Z",
+    "predictedWinnerId": 6,
+    "topTryScorerId": 3,
+    "topPointsScorerId": 2
+  },
+  {
+    "userLeagueId": 1,
+    "competitionId": 102,
+    "createdAt": "2024-11-02T11:00:00.000Z",
+    "predictedWinnerId": 7,
+    "topTryScorerId": 5,
+    "topPointsScorerId": 4
+  },
+  {
+    "userLeagueId": 3,
+    "competitionId": 101,
+    "createdAt": "2024-11-02T12:00:00.000Z",
+    "predictedWinnerId": null,
+    "topTryScorerId": 28,
+    "topPointsScorerId": null
+  },
+  {
+    "userLeagueId": 4,
+    "competitionId": 103,
+    "createdAt": "2024-11-03T15:00:00.000Z",
+    "predictedWinnerId": 9,
+    "topTryScorerId": null,
+    "topPointsScorerId": 35
+  },
+  {
+    "userLeagueId": 5,
+    "competitionId": 102,
+    "createdAt": "2024-11-04T09:45:00.000Z",
+    "predictedWinnerId": 10,
+    "topTryScorerId": 26,
+    "topPointsScorerId": 36
+  }
+]

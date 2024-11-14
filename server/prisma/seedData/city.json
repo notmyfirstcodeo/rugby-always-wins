@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Edinburgh",
+    "countryId": 1
+  },
+  {
+    "name": "Auckland",
+    "countryId": 2
+  },
+  {
+    "name": "London",
+    "countryId": 3
+  },
+  {
+    "name": "Sydney",
+    "countryId": 4
+  },
+  {
+    "name": "Paris",
+    "countryId": 5
+  },
+  {
+    "name": "Cardiff",
+    "countryId": 6
+  },
+  {
+    "name": "Dublin",
+    "countryId": 7
+  },
+  {
+    "name": "Cape Town",
+    "countryId": 8
+  },
+  {
+    "name": "Buenos Aires",
+    "countryId": 9
+  },
+  {
+    "name": "Tokyo",
+    "countryId": 10
+  },
+  {
+    "name": "Rome",
+    "countryId": 11
+  },
+  {
+    "name": "Suva",
+    "countryId": 12
+  },
+  {
+    "name": "Apia",
+    "countryId": 13
+  },
+  {
+    "name": "Nuku'alofa",
+    "countryId": 14
+  },
+  {
+    "name": "Tbilisi",
+    "countryId": 15
+  },
+  {
+    "name": "Bucharest",
+    "countryId": 16
+  },
+  {
+    "name": "New York",
+    "countryId": 17
+  },
+  {
+    "name": "Vancouver",
+    "countryId": 18
+  },
+  {
+    "name": "Lisbon",
+    "countryId": 19
+  },
+  {
+    "name": "Madrid",
+    "countryId": 20
+  },
+  {
+    "name": "Montevideo",
+    "countryId": 21
+  },
+  {
+    "name": "Nairobi",
+    "countryId": 22
+  },
+  {
+    "name": "Windhoek",
+    "countryId": 23
+  },
+  {
+    "name": "Hong Kong",
+    "countryId": 24
+  },
+  {
+    "name": "Harare",
+    "countryId": 25
+  }
+]
