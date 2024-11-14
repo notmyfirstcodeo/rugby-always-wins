@@ -36,7 +36,9 @@ async function main() {
     "stadium.json",
     "match.json",
     "matchPrediction.json",
+    "competitionPrediction.json",
     "matchResult.json",
+    "point.json",
   ];
 
   await deleteAllData(orderedFileNames);

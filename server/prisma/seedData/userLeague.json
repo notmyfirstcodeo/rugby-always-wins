@@ -6,6 +6,16 @@
   },
   {
     "userId": 2,
+    "leagueId": 1,
+    "joinedAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "userId": 3,
+    "leagueId": 1,
+    "joinedAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "userId": 2,
     "leagueId": 2,
     "joinedAt": "2024-02-06T00:00:00Z"
   },

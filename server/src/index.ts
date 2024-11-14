@@ -7,6 +7,7 @@ import morgan from "morgan";
 
 /* ROUTE IMPORTS */
 import leagueRoutes from "./routes/leagueRoutes";
+import pointRoutes from "./routes/pointRoutes";
 
 /* CONFIGURATIONS */
 dotenv.config();
@@ -25,6 +26,7 @@ app.get("/", (req, res) => {
 });
 
 app.use("/leagues", leagueRoutes);
+app.use("/points", pointRoutes);
 
 /* SERVER */
 const port = process.env.PORT || 3000;

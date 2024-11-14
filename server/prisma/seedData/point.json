@@ -1,19 +1,21 @@
 [
   {
     "userLeagueId": 1,
-    "leagueId": 1,
     "points": 25,
     "createdAt": "2024-11-10T12:00:00Z"
   },
   {
     "userLeagueId": 2,
-    "leagueId": 2,
     "points": 30,
     "createdAt": "2024-11-11T14:00:00Z"
   },
   {
+    "userLeagueId": 3,
+    "points": 50,
+    "createdAt": "2024-11-11T14:00:00Z"
+  },
+  {
     "userLeagueId": 1,
-    "leagueId": 2,
     "points": 15,
     "createdAt": "2024-11-12T16:00:00Z"
   }
