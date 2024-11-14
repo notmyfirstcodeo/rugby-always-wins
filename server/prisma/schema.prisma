@@ -8,83 +8,60 @@ datasource db {
 }
 
 model User {
-  userId Int @id @default(autoincrement())
-  cognitoId String @unique
-  username String @unique
-  email String @unique
-  firstName String
-  lastName String
-  profilePictureUrl String?
-  createdAt DateTime @default(now())
-  lastLogin DateTime?
+  userId        Int       @id @default(autoincrement()) @map("user_id")
+  cognitoId     String    @unique @map("cognito_id")
+  username      String    @unique
+  email         String    @unique
+  firstName     String    @map("first_name")
+  lastName      String?   @map("surname")
+  profilePicUrl String?   @map("profile_pic_url")
+  createdAt     DateTime  @default(now()) @map("created_at")
+  lastLogin     DateTime? @map("last_login")
 
-  leagues League[]
+  leagues     League[]
   leagueUsers UserLeague[]
+
+  @@map("users")
 }
 
 model League {
-  leagueId Int @id @default(autoincrement())
-  name String
-  competitionId Int
-  description String
-  isPrivate Boolean @default(false)
-  createdBy Int
-  createdAt DateTime @default(now())
+  leagueId      Int      @id @default(autoincrement()) @map("league_id")
+  name          String
+  competitionId Int      @map("competition_id")
+  description   String?
+  isPrivate     Boolean  @default(false) @map("is_private")
+  createdById   Int      @map("created_by_id")
+  createdAt     DateTime @default(now()) @map("created_at")
 
-  competition Competition @relation(fields: [competitionId], references: [competitionId])
-  creator User @relation(fields: [createdBy], references: [userId])
-  users UserLeague[]
+  competition Competition  @relation(fields: [competitionId], references: [competitionId])
+  creator     User         @relation(fields: [createdById], references: [userId])
+  users       UserLeague[]
+
+  @@map("league")
 }
 
 model UserLeague {
-  userLeagueId Int @id @default(autoincrement())
-  userId Int
-  leagueId Int
-  joinedAt DateTime @default(now())
-  
-  user User @relation(fields: [userId], references: [userId])
+  userLeagueId Int      @id @default(autoincrement()) @map("user_league_id")
+  userId       Int      @map("user_id")
+  leagueId     Int      @map("league_id")
+  joinedAt     DateTime @default(now()) @map("joined_at")
+
+  user   User   @relation(fields: [userId], references: [userId])
   league League @relation(fields: [leagueId], references: [leagueId])
 
-  @@unique([userId, leagueId])
+  @@map("user_league")
 }
 
 model Competition {
-  competitionId Int @id @default(autoincrement())
-  name String
-  description String?
-  createdAt DateTime @default(now())
+  competitionId  Int      @id @default(autoincrement()) @map("competition_id")
+  name           String
+  description    String?
+  createdAt      DateTime @default(now()) @map("created_at")
+  hasWinningTeam Boolean  @default(true) @map("has_winning_team")
+  hasTopTries    Boolean  @default(true) @map("has_top_tries")
+  hasTopPoints   Boolean  @default(true) @map("has_top_points")
 
   leagues League[]
-  matches Match[]
-}
 
-model Match {
-  matchId Int @id @default(autoincrement())
-  competitionId Int
-  homeTeamId Int
-  awayTeamId Int
-  matchDate DateTime
-  result String?
-
-  homeTeam Team @relation("homeTeamRelation", fields: [homeTeamId], references: [teamId])
-  awayTeam Team @relation("awayTeamRelation", fields: [awayTeamId], references: [teamId])
-  competition Competition @relation(fields: [competitionId], references: [competitionId])
-}
-
-model Team {
-  teamId Int @id @default(autoincrement())
-  name String @unique
-  
-  players Player[]
-  homeMatches Match[] @relation("homeTeamRelation")
-  awayMatches Match[] @relation("awayTeamRelation")
-}
-
-model Player {
-  id Int @id @default(autoincrement())
-  name String
-  teamId Int
-  position String
-
-  team Team @relation(fields: [teamId], references: [teamId])
+  @@map("competition")
 }

@@ -1,0 +1,127 @@
+[
+  {
+    "userId": 1,
+    "leagueId": 1,
+    "joinedAt": "2024-01-06T00:00:00Z"
+  },
+  {
+    "userId": 2,
+    "leagueId": 2,
+    "joinedAt": "2024-02-06T00:00:00Z"
+  },
+  {
+    "userId": 3,
+    "leagueId": 3,
+    "joinedAt": "2024-01-07T10:00:00Z"
+  },
+  {
+    "userId": 4,
+    "leagueId": 4,
+    "joinedAt": "2024-01-08T12:30:00Z"
+  },
+  {
+    "userId": 5,
+    "leagueId": 5,
+    "joinedAt": "2024-01-09T14:45:00Z"
+  },
+  {
+    "userId": 6,
+    "leagueId": 6,
+    "joinedAt": "2024-01-10T15:00:00Z"
+  },
+  {
+    "userId": 7,
+    "leagueId": 7,
+    "joinedAt": "2024-01-11T16:00:00Z"
+  },
+  {
+    "userId": 8,
+    "leagueId": 8,
+    "joinedAt": "2024-01-12T17:30:00Z"
+  },
+  {
+    "userId": 9,
+    "leagueId": 9,
+    "joinedAt": "2024-01-13T18:45:00Z"
+  },
+  {
+    "userId": 10,
+    "leagueId": 1,
+    "joinedAt": "2024-01-14T19:15:00Z"
+  },
+  {
+    "userId": 11,
+    "leagueId": 2,
+    "joinedAt": "2024-01-15T20:30:00Z"
+  },
+  {
+    "userId": 12,
+    "leagueId": 3,
+    "joinedAt": "2024-01-16T21:00:00Z"
+  },
+  {
+    "userId": 13,
+    "leagueId": 4,
+    "joinedAt": "2024-01-17T22:15:00Z"
+  },
+  {
+    "userId": 14,
+    "leagueId": 5,
+    "joinedAt": "2024-01-18T23:45:00Z"
+  },
+  {
+    "userId": 15,
+    "leagueId": 6,
+    "joinedAt": "2024-01-19T10:30:00Z"
+  },
+  {
+    "userId": 16,
+    "leagueId": 7,
+    "joinedAt": "2024-01-20T11:45:00Z"
+  },
+  {
+    "userId": 17,
+    "leagueId": 8,
+    "joinedAt": "2024-01-21T12:30:00Z"
+  },
+  {
+    "userId": 18,
+    "leagueId": 9,
+    "joinedAt": "2024-01-22T14:00:00Z"
+  },
+  {
+    "userId": 19,
+    "leagueId": 1,
+    "joinedAt": "2024-01-23T15:15:00Z"
+  },
+  {
+    "userId": 20,
+    "leagueId": 2,
+    "joinedAt": "2024-01-24T16:00:00Z"
+  },
+  {
+    "userId": 21,
+    "leagueId": 3,
+    "joinedAt": "2024-01-25T17:45:00Z"
+  },
+  {
+    "userId": 22,
+    "leagueId": 4,
+    "joinedAt": "2024-01-26T18:30:00Z"
+  },
+  {
+    "userId": 23,
+    "leagueId": 5,
+    "joinedAt": "2024-01-27T20:00:00Z"
+  },
+  {
+    "userId": 24,
+    "leagueId": 6,
+    "joinedAt": "2024-01-28T21:30:00Z"
+  },
+  {
+    "userId": 25,
+    "leagueId": 7,
+    "joinedAt": "2024-01-29T22:15:00Z"
+  }
+]
