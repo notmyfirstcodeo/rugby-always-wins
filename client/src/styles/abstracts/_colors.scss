@@ -1,47 +1,71 @@
 $colors: (
   neutral: (
-    900: #121212,     // Off-black for main text or dark backgrounds
-    700: #2c2c2c,     // Dark gray for secondary text or subtle accents
-    500: #5e5e5e,     // Medium gray for borders or inactive elements
-    300: #d3d3d3,     // Light gray for dividers or background shades
-    100: #f5f5f5,     // Very light gray, soft background shade
-    50:  #ffffff      // White for main backgrounds and cards
+    900: #121212,
+    // Off-black for main text or dark backgrounds
+    700: #2c2c2c,
+    // Dark gray for secondary text or subtle accents
+    500: #818181,
+    // Medium gray for borders or inactive elements
+    300: #d3d3d3,
+    // Light gray for dividers or background shades
+    100: #f5f5f5,
+    // Very light gray, soft background shade
+    50: #ffffff // White for main backgrounds and cards,
   ),
   primary: (
-    800: #003366,     // Very dark blue for strong branding accents
-    600: #004488,     // Darker blue for buttons, icons, or active states
-    500: #0055aa,     // Main branding blue for headers, main buttons
-    300: #66aaff,     // Light blue for hover effects or highlights
-    100: #cce7ff      // Very light blue for backgrounds or subtle accents
+    800: #003366,
+    // Very dark blue for strong branding accents
+    600: #004488,
+    // Darker blue for buttons, icons, or active states
+    500: #0055aa,
+    // Main branding blue for headers, main buttons
+    300: #66aaff,
+    // Light blue for hover effects or highlights
+    100: #cce7ff // Very light blue for backgrounds or subtle accents,
   ),
   secondary: (
-    700: #b26b00,     // Deep amber for contrasting text or icons
-    500: #ff9900,     // Main secondary color for warning highlights
-    300: #ffcc66,     // Lighter amber for hover effects or secondary highlights
-    100: #ffebcc      // Very light amber, background shade for cards
+    700: #b26b00,
+    // Deep amber for contrasting text or icons
+    500: #ff9900,
+    // Main secondary color for warning highlights
+    300: #ffcc66,
+    // Lighter amber for hover effects or secondary highlights
+    100: #ffebcc // Very light amber, background shade for cards,
   ),
   success: (
-    700: #0b6b3a,     // Dark green for success indicators
-    500: #22a55d,     // Main green for success highlights
-    300: #a0e0b5,     // Light green for background highlights
-    100: #e6f7eb      // Very light green for subtle success backgrounds
+    700: #0b6b3a,
+    // Dark green for success indicators
+    500: #22a55d,
+    // Main green for success highlights
+    300: #a0e0b5,
+    // Light green for background highlights
+    100: #e6f7eb // Very light green for subtle success backgrounds,
   ),
   warning: (
-    700: #b97300,     // Dark orange for warnings or alert icons
-    500: #ffae42,     // Main warning orange
-    300: #ffd28a,     // Light orange for hover states
-    100: #fff2e0      // Very light orange, background shade
+    700: #b97300,
+    // Dark orange for warnings or alert icons
+    500: #ffae42,
+    // Main warning orange
+    300: #ffd28a,
+    // Light orange for hover states
+    100: #fff2e0 // Very light orange, background shade,
   ),
   error: (
-    700: #a5282e,     // Dark red for error highlights or icons
-    500: #d32f2f,     // Main red for errors
-    300: #f4a3a3,     // Light red for hover states
-    100: #fde4e4      // Very light red, background shade for errors
+    700: #a5282e,
+    // Dark red for error highlights or icons
+    500: #d32f2f,
+    // Main red for errors
+    300: #f4a3a3,
+    // Light red for hover states
+    100: #fde4e4 // Very light red, background shade for errors,
   ),
   info: (
-    700: #005582,     // Dark blue for informational elements
-    500: #007ab8,     // Main blue for informational highlights
-    300: #a4d1f2,     // Light blue for background highlights
-    100: #e6f3fb      // Very light blue for subtle info backgrounds
-  )
+    700: #005582,
+    // Dark blue for informational elements
+    500: #007ab8,
+    // Main blue for informational highlights
+    300: #a4d1f2,
+    // Light blue for background highlights
+    100: #e6f3fb // Very light blue for subtle info backgrounds,
+  ),
 );

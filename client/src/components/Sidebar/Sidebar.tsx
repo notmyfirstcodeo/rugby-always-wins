@@ -24,10 +24,13 @@ import {
   BarChart,
   X,
 } from 'lucide-react';
+import { useGetLeaguesQuery } from '@/lib/api/slice';
 
 const Sidebar = () => {
-  // const [showLeagues, setShowLeagues] = useState<boolean>(true);
+  const [showLeagues, setShowLeagues] = useState<boolean>(true);
   const sidebarItems = SidebarItems();
+
+  const { data: leagues } = useGetLeaguesQuery();
 
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(() => {
     if (typeof window !== 'undefined') {
@@ -62,6 +65,29 @@ const Sidebar = () => {
         <SidebarItem icon={User} label='Profile' href='/profile' />
         <SidebarItem icon={Settings} label='Settings' href='/settings' />
       </nav>
+
+      {/* LEAGUE LINKS */}
+      <button
+        onClick={() => setShowLeagues((prev) => !prev)}
+        className={styles.sidebar__leaguesButton}
+      >
+        <span>Leagues</span>
+        {showLeagues ? (
+          <ChevronUp className={styles.sidebar__leaguesButtonUp} />
+        ) : (
+          <ChevronDown className={styles.sidebar__leaguesButtonDown} />
+        )}
+      </button>
+      {/* LEAGUES LIST */}
+      {showLeagues &&
+        leagues?.map((league) => (
+          <SidebarItem
+            key={league.id}
+            icon={Trophy}
+            label={league.name}
+            href={`/leagues/${league.id}`}
+          />
+        ))}
 
       {/* Add TOGGLE back in later */}
       {/* <div className={styles.sidebar__toggle}>
